@@ -1,0 +1,11 @@
+def indirim_hesapla():
+    fiyat = float(input('Ürünün fiyatını giriniz:'))
+    indirim_yuzdesi = float(input('İndirim yüzdesini giriniz (%):'))
+
+    indirim_tutari = fiyat * (indirim_yuzdesi / 100)
+    son_fiyat = fiyat - indirim_tutari
+
+    print(f'İndirim Tutarı: {indirim_tutari} TL')
+    print(f'İndirimli Son Fiyat: {son_fiyat} TL')
+
+indirim_hesapla()    

@@ -1,0 +1,10 @@
+dogum_yili = int(input('Doğum yılınızı giriniz: '))
+mevcut_yil = 2026
+
+yas = mevcut_yil - dogum_yili
+print(f'Yaşınız: {yas}')
+
+if yas >= 18:
+    print('Tebrikler, ehliyet alabilirsiniz!')
+else:
+    print(f'Ehliyet alabilmek için {18 - yas} yıl daha beklemelisiniz.')    

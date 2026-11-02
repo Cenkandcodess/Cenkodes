@@ -1,0 +1,5 @@
+print ('Hello Python VS Code')
+Ad = input('Adınızı giriniz')
+Soyad = input('Soyadınızı giriniz')
+Şehir = input('Yaşadığınız şehri giriniz')
+print (f"Merhaba, benim adım {Ad} {Soyad} {Şehir}'da yaşıyorum")
